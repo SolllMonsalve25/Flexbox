@@ -1,0 +1,136 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, serif;
+}
+
+header{
+    padding: 30px;
+    background: #333334;
+    color: white;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+nav1{
+    display: flex;
+    justify-content: flex-start;
+    background: #3257fe;
+}
+
+nav1 a{
+    color: #030303;
+    text-decoration: none;
+    padding: 15px;
+}
+
+nav1 a:hover{
+    background: #4d77e9;
+    color: #CCCCCC;
+}
+
+
+nav2{
+    display: flex;
+    justify-content: center;
+    background:  #1ac3ed
+}
+
+nav2 a{
+    color: #1639e6;
+    text-decoration: none;
+    padding: 15px;
+}
+
+nav2 a:hover{
+    background: #76c8ff;
+    color: #000000;
+}
+
+nav3{
+    display: flex;
+    justify-content: flex-end;
+    background:  #8a29eb
+}
+
+nav3 a{
+    color: #d59bff;
+    text-decoration: none;
+    padding: 15px;
+}
+
+nav3 a:hover{
+    background: #f714f3;
+    color: #CCCCCC;
+}
+
+
+nav4{
+    display: flex;
+    justify-content: space-between;
+    background:  #fe3131
+}
+
+nav4 a{
+    color: #000000;
+    text-decoration: none;
+    padding: 15px;
+}
+
+nav4 a:hover{
+    background: #f5abab;
+    color: #000000;
+}
+
+nav5{
+    display: flex;
+    justify-content: space-around;
+    background:  #40fa94
+}
+
+nav5 a{
+    color: #000000;
+    text-decoration: none;
+    padding: 15px;
+}
+
+nav5 a:hover{
+    background: #0f410a;
+    color: #CCCCCC;
+}
+
+nav6{
+    display: flex;
+    background:  #04f0fc
+}
+
+nav6 a{
+    color: #090808;
+    text-decoration: none;
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+}
+
+nav6 a:hover{
+    background: #3847f2;
+    color: #CCCCCC;
+}
+
+nav7{
+    display: flex;
+    flex-direction: column;
+    background:  #fe9e05;
+    width: 300px;
+}
+
+nav7 a{
+    color: #555;
+    text-decoration: none;
+    padding: 15px;
+}
+
+nav7 a:hover{
+    background: #f3e70c;
+    color: #000000;
+}
